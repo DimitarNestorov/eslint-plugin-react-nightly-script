@@ -1,0 +1,10 @@
+.editorconfig
+.eslintignore
+.eslintrc
+CHANGELOG.md
+CONTRIBUTING.md
+.npmrc
+.travis.yml
+appveyor.yml
+tests/
+docs/

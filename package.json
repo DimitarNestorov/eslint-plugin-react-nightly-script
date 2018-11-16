@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-react-nightly-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "rimraf": "^2.6.2"
+  },
+  "author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+  "license": "MIT"
+}
