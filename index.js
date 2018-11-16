@@ -54,6 +54,6 @@ rimraf('eslint-plugin-react', (error) => {
 		fs.copyFileSync(path.join(__dirname, 'target.npmignore'), path.join(repoPath, '.npmignore'));
 
 		log(`Publishing ${version}`)
-		execSync('npm publish', {cwd: repoPath})
+		execSync('npm publish --access public', {cwd: repoPath})
 	})
 })
