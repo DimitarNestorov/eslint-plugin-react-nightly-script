@@ -37,6 +37,7 @@ rimraf('eslint-plugin-react', (error) => {
 	log("Versions:", versions)
 
 	commits.forEach((hash) => {
+		hash = hash.substr(0, 7)
 		const version = `0.0.0-${hash}`
 		if (versions.includes(version)) return log(`Version ${version} already published`)
 
